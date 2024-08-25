@@ -6,7 +6,7 @@ for i in range(1, 8):
         numeros[0].append(temp)
     else:
         numeros[1].append(temp)
-for i in range(0, 2):
-    numeros[i].sort()
+numeros[0].sort()
+numeros[1].sort()
 print(f'''Os números pares digitados foram: {numeros[0]}
 Os ímpares foram: {numeros[1]}''')
